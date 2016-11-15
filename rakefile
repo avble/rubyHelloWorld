@@ -1,0 +1,13 @@
+task :debug  do
+	ruby test_cov 
+end
+
+
+task :release do 
+
+	puts "Release"
+end
+
+task :coverage do 
+	ruby test_cov.rb
+end
